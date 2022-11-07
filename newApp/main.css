@@ -1,0 +1,32 @@
+.example::-webkit-scrollbar {
+    display: none;
+  }
+
+  html, body {
+    height: 100%;
+  }
+  
+  .fullScreen {
+    height: 100%;
+  }
+  
+  .gif{
+  background-image: url('https://media.giphy.com/media/wRUbqluUpIRTP1hkf3/giphy.gif');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  }
+
+  img{
+    width: 50%;
+    max-width: 175px;
+    min-width: 175px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  
+  header {
+    background-image: url('/img/1.jpg');
+  }
